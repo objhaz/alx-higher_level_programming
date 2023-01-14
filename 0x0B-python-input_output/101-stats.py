@@ -1,4 +1,3 @@
-able File  40 lines (38 sloc)  1.19 KB
 #!/usr/bin/python3
 """
 reads stdin line by line and computes metrics
