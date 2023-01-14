@@ -1,7 +1,7 @@
-seGeometry module.
-Contains an empty class BaseGeometry.
-"""
+#!/usr/bin/python3
+"""Defines an empty class BaseGeometry."""
 
 
-class BaseGeometry():
-    """Defines the BaseGeometry class."""
+class BaseGeometry:
+    """Represent base geometry."""
+    pass
