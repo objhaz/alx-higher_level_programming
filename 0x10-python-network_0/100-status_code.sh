@@ -1,4 +1,3 @@
 #!/bin/bash
-# sends a request to a URL passed as an argument, and displays only the status code of the response
-curl -sI -w '%{response_code}' "$1" -o /dev/null
-
+# Displays the size of the status code of the response of a curl request
+curl -so /dev/null -w '%{http_code}' "$1"
